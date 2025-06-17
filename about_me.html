@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-lang="title">Portfolio - Elsa HOM</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/style1.css">
+    <link rel="stylesheet" href="styles/style_about_me.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <a href="accueil.html" class="logo" data-lang="logo">PORTFOLIO</a>
+
+        <!-- Main Menu -->
+        <nav class="main-nav" id="mainNav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="accueil.html" class="nav-link" data-lang="home">Accueil</a></li>
+                <li class="nav-item active"><a href="about_me.html" class="nav-link" data-lang="about">À propos</a></li>
+                <li class="nav-item"><a href="formation.html" class="nav-link" data-lang="training">Formations</a></li>
+                <li class="nav-item"><a href="experience.html" class="nav-link" data-lang="experience">Expériences</a></li>
+				<li class="nav-item"><a href="contact.html" class="nav-link" data-lang="contact">Contact</a></li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" aria-haspopup="true" data-lang="projects">Projets <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+					   <li><a href="stage2025.html">stage2025</a></li>
+					   <li><a href="CV.html">CV</a></li>
+                       <li><a href="analyse_sae.html">Analyse SAE</a></li>
+					   <li><a href="BUT1.html">BUT1</a></li>
+					   <li><a href="BUT2.html">BUT2</a></li>
+					</ul>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Contrôles utilitaires -->
+        <div class="header-controls">
+            <button id="theme-toggle" class="icon-btn" aria-label="Changer le thème">
+                <i class="fas fa-moon"></i>
+            </button>
+            <button id="lang-toggle" class="icon-btn" aria-label="Changer la langue" data-lang="lang-toggle">FR/EN</button>
+            <button id="menu-toggle" class="icon-btn" aria-label="Ouvrir le menu" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+
+
+    <!-- premiere section -->
+
+    <section class="titre">
+        <h2 data-lang="about-me-title">About me</h2>
+
+        <div class="structure">
+
+            <div class="text">
+                <br>
+
+                <p data-lang="about-me-intro">My name is Elsa HOM, and I am an 20-year-old student living in Portet. This portfolio is a glimpse
+                    into my journey, highlighting both technical skills and diverse interests, from art to physical
+                    activities. </p>
+
+                <h3 data-lang="personal-characteristics-title">Personal Characteristics</h3>
+                <p data-lang="personal-characteristics-description">I'd describe myself as very simple, and a very calm person. Otherwise, I'd say that deep down, I'm a
+                    very passionate. Driven by a deep curiosity and a flair for problem-solving, I navigate the realms
+                    of cybersecurity. As a determined and persevering person, I remain very involved in what I
+                    undertake.</p>
+            </div>
+            <img src="images/mindmap.jpg" class="img" alt="map">
+        </div>
+
+    </section>
+
+
+    <section class="deux">
+
+        <h2 data-lang="why-but-title">Why BUT and BUT R&T</h2>
+        <figure>
+            <img src="images/cyber.png" class="img" alt="map">
+
+            <p class="text" data-lang="why-but-description">I am a student from the school ‘IUT blagnac’ where I'm pursuing a degree in networks and
+                telecommunications. So it's a University Institute of Technology, which offers technical and
+                theoretical training in areas such as computer networks. I chose these studies because I'd like to
+                become a cybersecurity engineer in the future if that's possible. Overall, I find that engineering is
+                a very interesting profession because of its versatile aspect and I find that it's a career that pushes
+                us to constantly enrich ourselves. One of the reasons I'd like to choose BUT R&T is because of the
+                constant evolution of the IT sector and technologies, which implies a strong need for manpower to
+                grantir IT security. The job opportunities, the variety of tasks are what interest me most, because I
+                can learn something new every day. </p>
+
+        </figure>
+    </section>
+
+
+    <!-- Troisième section -->
+    <section class="other-section">
+        <h2 data-lang="center-of-interest-title">Center of Interest</h2>
+	
+        <div class="center_interest">
+            <video class="video-styled" controls muted autoplay loop preload="metadata">
+                <source src="videos/montage.mp4" type="video/mp4">
+            </video>
+            <div class="image-container">
+                <h3 data-lang="some-videos-title">Some videos</h3>
+
+                <br>
+                <h5 data-lang="visit-to-versailles">Visit to Versailles</h5>
+                <a href="https://www.youtube.com/watch?v=xfxKo6ESrFQ">
+                    <img src="images/paris.png" class="img" alt="Image cliquable 1">
+                </a>
+
+
+                <h5 data-lang="tour-of-northern-france">Tour of northern France</h5>
+                <a href="https://www.youtube.com/watch?v=13cAttGppsE">
+                    <img src="images/img_visite.png" class="img" alt="Image cliquable 2">
+                </a>
+            </div>
+            <figcaption class="text-container">
+                <p data-lang="video-editing-description">As for my interest in video editing, it's a passion I've developed over time. I've always been
+                    fascinated by the possibility of telling stories and captivating people through moving images.</p>
+            </figcaption>
+        </div>
+    </section><!-- Activity -->
+
+    <section class="cardboard">
+
+        <h2 data-lang="cardboard-cut-outs-title">Cardboard Cut-Outs</h2>
+        <br>
+        <img src="images/cardboard.png" class="centre" alt="cardboard">
+        <p data-lang="cardboard-cut-outs-description"> In my portfolio, my interests are the pillars that define my personality and my passions. My
+            versatility is reflected in a variety of activities, from artistic creation to digital exploration. My
+            passion for visual arts such as drawing, origami and video editing reveals my creative identity, while my
+            attraction to manual activities underlines my commitment to precision and patience. </p>
+
+    </section>
+
+    <section class="deux">
+
+        <h2 data-lang="extra-curricular-activities-title">Extra-Curricular Activities</h2>
+
+        <img src="images/sport.jpg" class="centre" alt="image_sport">
+        <p data-lang="extra-curricular-activities-description"> Then, in terms of activities, I did 2 years of swimming and 3 years of gymnastics when I was younger. I've
+            also done climbing once. At the moment, I like doing sports even though I'm not currently in a club. I
+            often do activities on my own at home, like playing badminton with friends, cycling, or other physical
+            exercises to clear my mind and stay active. </p>
+
+    </section>
+
+    <!-- Troisième section -->
+
+    <section class="kaizen-section">
+        <h2 data-lang="mindset-title">Mindset</h2>
+        <div class="kaizen-content">
+            <p data-lang="click-here">Cliquez ici --></p>
+            <img src="images/kaizen.png" alt="Kaizen" class="kaizen-image" id="kaizenImage">
+        </div>
+        <div class="kaizen-text" id="kaizenText">
+            <p data-lang="kaizen-definition">→ A JAPANESE WORD which means : Each day is an opportunity to improve yourself for the better, even if it only represents 1 % a day, every tiny effort combined will represent an effort of great impact.</p>
+            <p data-lang="kaizen-description">That means a lot to me. It's like a mindset that I try to have: not only in terms of ability or knowledge, it covers all aspects, from trying to have more confidence in what I do, to always being myself. It's also relationally, I'm always trying to become better mentally, to have a good impact on others, to be more understanding, more aware, or to be more grateful for example.</p>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <ul class="footer-info">
+                <li data-lang="footer-info-1">IUT de Blagnac</li>
+                <li data-lang="footer-info-2">Département Réseaux et Télécommunications</li>
+                <li data-lang="footer-info-3">BUT 2</li>
+            </ul>
+
+            <div class="validators">
+                <button
+                    onclick="window.open('https://validator.w3.org/nu/?doc=http%3A%2F%2Fehom.atwebpages.com%2Ftest%2Faccueil.html', '_blank')"
+                    class="validator-btn" data-lang="validate-html">
+                    Valider HTML
+                </button>
+                <button
+                    onclick="window.open('https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fehom.atwebpages.com%2Ftest%2Faccueil.html', '_blank')"
+                    class="validator-btn" data-lang="validate-css">
+                    Valider CSS
+                </button>
+            </div>
+        </div>
+        <div style="height: 1.5rem;"></div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/about_me_script.js"></script>
+</body>
+</html>
